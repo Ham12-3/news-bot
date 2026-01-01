@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Local development
+*.log
+*.local
+.env.local
+.env.*.local
+
+# Environment files with secrets
+backend/.env
+frontend/.env
+frontend/.env.local
+.env
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat-schedule.db
+*.pid
+
+# Secrets - NEVER commit these
+*.pem
+*.key
+secrets/
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+desktop.ini
+
+# Node (for frontend)
+node_modules/
+.next/
+out/
+.turbo
+
+# Build outputs
+*.pyc
+__pycache__
+.cache
